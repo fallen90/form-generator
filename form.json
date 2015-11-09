@@ -1,0 +1,31 @@
+{
+	"name" : "form example",
+	"logo" : "res://logo",
+	"action" : "https://example.com/endpoint",
+	"fields" : [
+		{
+			"name" : "method_type",
+			"type" : "constant",
+			"value" : "GET"
+		},
+		{
+			"name" : "firstname",
+			"type" : "string",
+			"hint" : "Input Firstname"
+		},
+		{
+			"name" : "age",
+			"type" : "integer",
+			"hint" : "Input Age"
+		},
+		{
+			"name" : "gender",
+			"type" : "select",
+			"value" : ["male","female"]
+		},
+		{
+			"name" : "selected",
+			"type" : "boolean"
+		}
+	]
+}
